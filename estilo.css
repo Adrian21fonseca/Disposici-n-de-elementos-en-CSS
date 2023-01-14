@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.principio {
+    width: 100vw;
+    opacity: .5;
+}
+.principio:hover {
+    opacity: 1;
+}
+
+.galeria {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.galeria-pp {
+    width: 300px;
+}
+
+.galeria-pp:hover {
+    opacity: .4;
+    cursor: pointer;
+}
